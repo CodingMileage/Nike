@@ -1,13 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const PopularProductCard = ({imgURL, name, price}) => {
+const PopularProductCard = ({ imgURL, name, price }) => {
   return (
-    <div className='flex flex-1 flex-col
-    w-full max-sm:w-full'>
-        <img src={imgURL} alt="ad" 
-        className=''/>
+    <div
+      className="flex flex-1 flex-col
+    w-full max-sm:w-full"
+    >
+      <img src={imgURL} alt="shoes" className="" />
+      <h2>{name}</h2>
+      <h3>{price}</h3>
     </div>
-  )
-}
+  );
+};
 
-export default PopularProductCard
+export default PopularProductCard;
