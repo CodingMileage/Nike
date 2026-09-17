@@ -1,3 +1,7 @@
+![Example](public/hero.png)
+![Example](public/product.png)
+![Example](public/product2.png)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
